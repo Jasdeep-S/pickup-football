@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --pitch: #1f4b2e;
+  --ink: #16201a;
+  --chalk: #f6f4ee;
+  --line: #ffffff;
+  --amber: #c98a2c;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-body), sans-serif;
 }
 
 @theme inline {
